@@ -26,5 +26,12 @@ In this project you can do the following things:
  - [React Router](https://reactrouter.com/en/main/)
  - [StyledComponents](https://styled-components.com/)
 
-### To do list
-- "About me" section to add more personal info
+### To do / wish list
+- Improve the way of store the data in order to avoid unnecessary calls to the api
+- Implement Local Storage(or a similar method) to persist data
+- Improve the css and make the app responsive
+- Simulate "users" with a login to give a purpose to the fact that you can check things as owned
+
+### Credits
+
+Credits to the owner of FFXIV Collect known as [Raelys Skyborn](https://github.com/mattantonelli), the person responsible of some of the popular tools about FFXIV
