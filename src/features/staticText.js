@@ -18,13 +18,13 @@ export const IndexText = () => {
       <h5>Powered by the community</h5>
       <p>
         I'm relying on the community to keep my sources up to date. If you see a source that is missing or
-        incorrect, please let me know on <NormalLink href="https://discord.gg/DkYqtWWpUr">Discord</NormalLink>
+        incorrect, please let me know on <NormalLink href="https://discord.gg/DkYqtWWpUr" target="_blank" rel="noopener noreferrer">Discord</NormalLink>
         .
       </p>
       <h5>Do you have feedback? I want to hear it!</h5>
       <p>
         The community is what motivates me to create these projects, so if you have any feedback, please let
-        me know on <NormalLink href="https://discord.gg/bA9fYQjEYy">Discord</NormalLink>.
+        me know on <NormalLink href="https://discord.gg/bA9fYQjEYy" target="_blank" rel="noopener noreferrer">Discord</NormalLink>.
       </p>
     </div>
   )
@@ -33,18 +33,16 @@ export const IndexText = () => {
 export const PersonalText = () => {
   return (
     <div>
-      <h5> Imitación de sitio web FFXIV Collect</h5>
+      <h5> An imitation of FFXIV Collect</h5>
       <p>
-        El primer bloque mostrado esta colocado para imitar la portada del original y al mismo tiempo dar
-        crédito al desarrollador original
+        The first section is part of the official home page from FFXIV Collect, the reason to be there is to show credits to the developer of the official web
       </p>
-      <p>Todo este contenido ha sido imitado utilizando:</p>
+      <p>All of this imitation is made with the following tools:</p>
       <ul>
-        <li>React: Redux Toolkit / React Router DOM / Hooks </li>
-        <li>CSS: Se imitó lo esencial del sitio original utilizando Styled Components</li>
+        <li>React: Redux Toolkit / React Router DOM / Hooks / Formik </li>
+        <li>CSS: Styled components</li>
         <li>
-          API ofrecida por el desarrollador original de FFXIV Collect (conocido como Raelys Skyborn dentro de
-          la comunidad)
+          API offered by <NormalLink href="https://github.com/mattantonelli" target="_blank" rel="noopener noreferrer">Raelys Skyborn</NormalLink>, the developer of FFXIV Collect.
         </li>
       </ul>
     </div>

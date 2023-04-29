@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { NormalLink } from "./styled-components/commonElements"
 
 const StyledFooter = styled.footer`
   text-align: center;
@@ -7,7 +8,7 @@ const StyledFooter = styled.footer`
 export const Footer = () => {
   return (
     <StyledFooter>
-      <span>Created by Raelys Skyborn of Behemoth | Replicated by Rockaway</span>
+      <span>Created by <NormalLink href="https://github.com/mattantonelli" target="_blank" rel="noopener noreferrer">Raelys Skyborn</NormalLink> of Behemoth | Replicated by Rockaway</span>
     </StyledFooter>
   )
 }

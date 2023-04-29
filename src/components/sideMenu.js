@@ -32,7 +32,7 @@ export const SideMenu = () => {
               )
             }
             return (
-              <SidebarNav.ExternalLink href={item.url} target="_blank" key={item.title}>
+              <SidebarNav.ExternalLink href={item.url} target="_blank" rel="noopener noreferrer" key={item.title}>
                 <i className={item.logo} />
                 <SidebarNav.Title>{item.title}</SidebarNav.Title>
               </SidebarNav.ExternalLink>
